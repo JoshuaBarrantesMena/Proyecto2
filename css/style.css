@@ -28,11 +28,22 @@ h3{
 }
 p{
     color: #2b6eee;
+    padding-top: 10px;
 }
 div{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     text-align: left;
+}
+ol{
+    list-style: upper-roman;
+    color: #2b6eee;
+    padding: 25px;
+}
+ul{
+    list-style: square;
+    color: #2b6eee;
+    padding: 25px;
 }
 td{
     padding: 20px;
@@ -58,4 +69,34 @@ hr{
 }
 .container:first-child{
     padding-top: 40px;
+}
+
+#canva{
+    color: #2b6eee;
+    padding: 2px;
+    text-decoration: underline;
+}
+#canva:hover{
+    background-color: #2b6eee;
+    color: aliceblue;
+    padding: 2px;
+}
+#table-struct{
+    border-color: #2b6eee;
+    color: #2b6eee;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px;
+    border-style: dashed;
+}
+#footer{
+    padding-top: 20px;
+    background-color: #d6e4ff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+#ul-canva{
+    list-style: decimal;
 }
